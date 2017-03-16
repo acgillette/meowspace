@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'cat_fontregular';
+    src: url('../fonts/cat_font-webfont.woff2') format('woff2'),
+         url('../fonts/cat_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, a:hover {
+  cursor: url(http://cur.cursors-4u.net/nature/nat-3/nat264.cur), progress !important;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+ opacity: 1;
+ animation: fade 4s linear;
+}
+
+@keyframes fade {
+ 0% { opacity: 0 }
+ 70% { opacity: 1 }
+}
+
+
+header {
+  background:black;
+  position:fixed;
+  display:inline-block;
+  top:0px;
+  width:100%;
+}
+
+header h2, nav {
+  display:inline-block;
+}
+
+header h2 {
+  padding-right:40%;
+  padding-left:10%;
+  font-family:cat_fontregular, 'Lobster';
+  font-size:2.0em;
+}
+
+header a {
+  color:white;
+  text-decoration:none;
+}
+
+
+
+header li {
+  display:inline-block;
+  margin-right:30px;
+  font-family: 'Open Sans Condensed';
+  font-size:1.2em;
+}
+
+header li a {
+  padding:30%;
+}
+
+#banner {
+  text-align:center;
+  padding-top:20%;
+  padding-bottom:20%;
+  background-image:  url(../assets/hero.jpg);
+  background-size:  cover;
+  background-attachment: fixed;                 /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+#banner h1 {
+  color:white;
+  font-size: 8.0em;
+  font-family: 'Lobster', cursive;
+}
+
+
+#posts h2 {
+  text-align:center;
+  font-size:3.0em;
+  font-family: 'Lobster', cursive;
+  color:orange;
+  border-bottom-style:dotted;
+  border-color:orange;
+}
+
+.post {
+  border-style:solid;
+  border-color:orange;
+  height:300px;
+  width:200px;
+  display:inline-block;
+  margin:2%;
+  border-radius:5%;
+  padding:2%;
+  vertical-align:middle;
+
+}
+
+.post h3 {
+  width:200px;
+  padding-bottom:5%;
+  border-bottom:dotted;
+  border-color:orange;
+  color:orange;
+}
+
+.post a {
+  text-decoration: none;
+  padding:5%;
+  color:orange;
+}
+
+.post p:last-of-type {
+  margin:20px;
+  border-style:solid;
+  border-color:orange;
+  padding:5%;
+  border-radius:25px;
+  text-align:center;
+}
+
+.post p:last-of-type:hover {
+  background:orange
+}
+
+.post a:hover {
+  color:white;
+}
+
+
+#club-banner {
+}
+
+#club-banner h2 {
+  max-width:50%;
+  font-size:3.0em;
+  font-family: 'Lobster', cursive;
+  border-bottom-style: dotted;
+}
+
+#club-banner p {
+  float:left;
+  max-width:50%;
+  font-size:2.0em;
+
+}
+
+#club-banner img {
+  float:right;
+  padding-top:2%;
+  width:500px;
+  height:300px;
+  margin-bottom:2%;
+}
+
+#everybody {
+  clear:both;
+  height:700px;
+  text-align:center;
+  background-image:  url(../assets/everybody.jpg);
+  background-size:  cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+#everybody h2 {
+  padding:200px;
+  font-size:5.0em;
+  font-family: 'Lobster', cursive;
+  color:white;
+
+}
+
+footer {
+  background:black;
+  padding-top:20px;
+  font-family: 'Open Sans Condensed';
+}
+
+footer h4 {
+  color:white;
+  font-family:cat_fontregular;
+}
+
+footer a {
+  color:white;
+  text-decoration: none;
+}
+
+#disclaimer {
+  color:white;
+  display:inline-block;
+}
+
+#footertext {
+  background:black;
+  color:white;
+  display:inline-block;
+  max-width:50%;
+}
